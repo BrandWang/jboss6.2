@@ -1,5 +1,6 @@
-# Use latest jboss/base-jdk:8 image as the base
-FROM jboss/base-jdk:8
+FROM  idasound/centos7-jdk8
+
+MAINTAINER Brand Idasound "haowang@idasound.com"
 
 # Set the WILDFLY_VERSION env variable
 ENV WILDFLY_VERSION 10.1.0.Final
